@@ -1,0 +1,11 @@
+name: Wolf2789/oscapture
+description: Capture commandline output.
+version: 0.1
+author: 
+  - email: wolf2789@gmail.com
+    name: Dawid Bugajski
+autoload: 
+  - name: os.capture
+    path: oscapture.lua
+    relative: true
+    type: global
