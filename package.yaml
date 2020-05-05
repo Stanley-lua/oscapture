@@ -5,7 +5,6 @@ author:
   - email: wolf2789@gmail.com
     name: Dawid Bugajski
 autoload: 
-  - name: os.capture
+  - type: global
+    name: os.capture
     path: oscapture.lua
-    relative: true
-    type: global
